@@ -14,7 +14,7 @@ require('babel/register')({
     ignore: false
 });
 app.use('/', function (req, res) {
-    res.render('index', '');
+    res.render('app', '');
 });
 app.listen(3000, function () {
     console.log('Listen on 3000,Server is running..');
